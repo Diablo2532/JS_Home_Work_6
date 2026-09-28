@@ -40,9 +40,6 @@ console.log(strings.shift());
 
 console.log(strings); 
 
-
-const strings = ["aaa", "bbb", "ccc"];
-
 console.log(strings.pop());
 
 console.log(strings); 
