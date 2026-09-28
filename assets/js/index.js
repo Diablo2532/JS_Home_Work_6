@@ -28,7 +28,16 @@ const arrays4 = [1, 2, 3];
 
 arrays4.push(4,5,6);
 console.log('arrays4', arrays4);
+
 const originArrays =  [9, 10, 11, 12, 13];
 
 const copyArrays = originArrays.slice(2 , 5);
 console.log('copyArrays', copyArrays);
+
+const strings = ["aaa", "bbb", "ccc"];
+
+console.log(strings.shift());
+
+console.log(strings); 
+
+
