@@ -53,10 +53,13 @@ console.log("arrrays3", arrays3);
 arrays3.reverse(); 
 console.log('arrays3', arrays3);
 const firstArray = [1, 2, 3, 4, 5]; 
+const secondArray = firstArray.splice(2,4);
+
+console.log('secondArrray', secondArray);
 
 firstArray.splice(1,2);
-
 console.log('firstArray', firstArray);
+
 const vowelsArray = ["a", "e", "i", "o", "u", "y"];
 
 function countVowels(str, vowelsArray) {
@@ -71,3 +74,5 @@ function countVowels(str, vowelsArray) {
 }
 console.log(countVowels("Hello to you", vowelsArray) );
 console.log(countVowels("lorem ipsum dolor sit amet", vowelsArray)); 
+
+
