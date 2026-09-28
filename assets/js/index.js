@@ -48,3 +48,7 @@ const arrays2 = [4, 5, 6];
 
 const arrays3 = arrays1.concat(arrays2);
 console.log("arrrays3", arrays3);
+
+
+arrays3.reverse(); 
+console.log('arrays3', arrays3);
