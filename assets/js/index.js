@@ -52,3 +52,8 @@ console.log("arrrays3", arrays3);
 
 arrays3.reverse(); 
 console.log('arrays3', arrays3);
+const firstArray = [1, 2, 3, 4, 5]; 
+
+firstArray.splice(1,2);
+
+console.log('firstArray', firstArray);
